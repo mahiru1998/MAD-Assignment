@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.e_study">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.E_Study">
+        <activity android:name=".answers"></activity>
+        <activity android:name=".Download" />
+        <activity android:name=".marking_upload" />
+        <activity android:name=".paper_checking" />
+        <activity android:name=".Lecture_protal" />
+        <activity android:name=".Assignment_comment" />
+        <activity android:name=".uploadAssignment" />
+        <activity android:name=".My_Assignment" />
+        <activity android:name=".Comment" />
+        <activity android:name=".Upload" />
+        <activity android:name=".paperDownload" />
+        <activity android:name=".StudentProtal" />
+        <activity android:name=".Student_protall" />
+        <activity android:name=".selectionPage" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".Introduction" />
+        <activity android:name=".splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

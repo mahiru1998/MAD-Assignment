@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".My_Assignment">
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="435dp"
+        android:layout_height="758dp"
+        android:background="@color/login_back"
+        android:scaleType="centerCrop"
+
+        android:src="@drawable/s"
+        app:layout_constraintHeight_percent="0.27"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginBottom="548dp"
+        android:src="@drawable/welcome1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.562"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="524dp"
+        android:text="My Assignment
+"
+        android:textColor="@color/login_back"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.532"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="398dp"
+        android:layout_height="45dp"
+        android:hint="Assignment2"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        app:layout_constrainedWidth_percent=".8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.471"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.475">
+
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/sid"
+        android:layout_width="372dp"
+        android:layout_height="44dp"
+
+        android:hint="Assignment1"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        app:layout_constrainedWidth_percent=".8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.082"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.374">
+
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="401dp"
+        android:layout_height="45dp"
+
+        android:hint="Assignment3"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        app:layout_constrainedWidth_percent=".8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.573">
+
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="396dp"
+        android:layout_height="46dp"
+
+        android:hint="Assignment4"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        app:layout_constrainedWidth_percent=".8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.534"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.676">
+
+
+    </EditText>
+
+    <Button
+        android:layout_width="158dp"
+        android:layout_height="57dp"
+        android:background="@drawable/button_bg"
+        android:text="cancell"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:backgroundTint="#FF9100"
+        app:layout_constrainedWidth_percent=".8"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.966"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976">
+
+    </Button>
+
+    <Button
+        android:id="@+id/button22"
+        android:layout_width="169dp"
+        android:layout_height="61dp"
+        android:background="@drawable/button_bg"
+        android:text="Commment"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:backgroundTint="#FF9100"
+        app:layout_constrainedWidth_percent=".8"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.964"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.834">
+
+    </Button>
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="178dp"
+        android:layout_height="58dp"
+        android:background="@drawable/button_bg"
+        android:text="Download"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:backgroundTint="#FF9100"
+        app:layout_constrainedWidth_percent=".8"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.025"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.839">
+
+    </Button>
+
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="176dp"
+        android:layout_height="47dp"
+        android:background="@drawable/button_bg"
+        android:text="Upload"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:backgroundTint="#FF9100"
+        app:layout_constrainedWidth_percent=".8"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976">
+
+    </Button>
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit"
+        app:backgroundTint="#0E4FBC"
+        tools:layout_editor_absoluteX="290dp"
+        tools:layout_editor_absoluteY="253dp" />
+
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit"
+        app:backgroundTint="#0E4FBC"
+        tools:layout_editor_absoluteX="298dp"
+        tools:layout_editor_absoluteY="322dp" />
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit"
+        app:backgroundTint="#0E4FBC"
+        tools:layout_editor_absoluteX="298dp"
+        tools:layout_editor_absoluteY="393dp" />
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit"
+        app:backgroundTint="#0E4FBC"
+        tools:layout_editor_absoluteX="298dp"
+        tools:layout_editor_absoluteY="461dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        app:backgroundTint="#85040F"
+        tools:layout_editor_absoluteX="191dp"
+        tools:layout_editor_absoluteY="259dp" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        app:backgroundTint="#85040F"
+        tools:layout_editor_absoluteX="193dp"
+        tools:layout_editor_absoluteY="322dp" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        app:backgroundTint="#85040F"
+        tools:layout_editor_absoluteX="191dp"
+        tools:layout_editor_absoluteY="393dp" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        app:backgroundTint="#85040F"
+        tools:layout_editor_absoluteX="193dp"
+        tools:layout_editor_absoluteY="461dp" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
